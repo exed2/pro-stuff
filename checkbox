@@ -1,0 +1,9 @@
+   <CheckBox x:Name="TopMostCheckBox" 
+                                  Content="Top Most" 
+                                  Style="{StaticResource DarkModeCheckBox}"
+                                  Checked="TopMostCheckBox_Checked" 
+                                  Unchecked="TopMostCheckBox_Unchecked"/>
+                                    <CheckBox Content="Auto Attach" 
+                                  Style="{StaticResource DarkModeCheckBox}"
+                                  Checked="AutoAttach_Checked"/>
+                                </StackPanel>
